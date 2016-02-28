@@ -80,7 +80,7 @@ N">
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Mist',
-    sidebar: {"position":"left","display":"post"},
+    sidebar: {"position":"left","display":"always"},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -170,6 +170,16 @@ N">
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
 
       
       
@@ -231,6 +241,13 @@ N">
 
           
             
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/02/28/First blog/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/02/28/First blog/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -281,6 +298,10 @@ N">
           
   <div class="comments" id="comments">
     
+      <div class="ds-thread" data-thread-key="2016/02/28/First blog/"
+           data-title="搭建成功" data-url="http://yoursite.com/2016/02/28/First blog/">
+      </div>
+    
   </div>
 
 
@@ -315,10 +336,10 @@ N">
       <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/default_avatar.jpg"
-               alt="Liu Shi" />
-          <p class="site-author-name" itemprop="name">Liu Shi</p>
-          <p class="site-description motion-element" itemprop="description"></p>
+               src="/images/avatar.png"
+               alt="Six Poems" />
+          <p class="site-author-name" itemprop="name">Six Poems</p>
+          <p class="site-description motion-element" itemprop="description">Nothing's gonna change my love for you.</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -385,7 +406,7 @@ N">
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Liu Shi</span>
+  <span class="author" itemprop="copyrightHolder">Six Poems</span>
 </div>
 
 <div class="powered-by">
@@ -611,9 +632,28 @@ N">
 
   
 
+  
+    
+  
 
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"sixpoems"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
   
+    
+  
+
+
 
 
 
